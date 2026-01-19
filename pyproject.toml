@@ -1,0 +1,35 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "aeva-core"
+version = "0.1.0-alpha"
+description = "Standard interface for AEVA autonomous physical agents."
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+authors = [
+  { name = "AEVA Robotics", email = "opensource@aeva.ai" },
+]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+  "Topic :: Scientific/Engineering :: Robotics",
+]
+dependencies = [
+  "numpy>=1.21.0",
+  "grpcio>=1.40.0",
+  "protobuf>=3.19.0",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/aeva"]
+
+[project.urls]
+Homepage = "https://aeva.ai"
+Repository = "https://github.com/AEVA-Robotics/aeva-core"
+Documentation = "https://docs.aeva.ai"

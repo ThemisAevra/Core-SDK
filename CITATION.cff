@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "AEVA Research"
+  given-names: "Team"
+title: "AEVA Core: A Neuro-Symbolic Protocol for Physical Agents"
+version: 0.1.0-alpha
+date-released: 2026-01-20
+url: "https://github.com/AEVA-Robotics/aeva-core"
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "AEVA Research"
+    given-names: "Team"
+  journal: "arXiv preprint arXiv:2601.00000"
+  title: "Bridging the Gap: Real-time Neuro-Symbolic Control for Humanoids"
+  year: 2026
