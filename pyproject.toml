@@ -3,9 +3,9 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "aeva-core"
-version = "0.1.0-alpha"
-description = "Standard interface for AEVA autonomous physical agents."
+name = "themisaevra-core"
+version = "0.1.0"
+description = "ThemisAevra Core SDK for Humanoid Control & Perception"
 readme = "README.md"
 requires-python = ">=3.8"
 license = "MIT"

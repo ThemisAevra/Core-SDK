@@ -1,11 +1,11 @@
 import asyncio
-from aeva import Agent, Task, SafetyLevel
+from themisaevra.agent import HumanoidAgent, Task, SafetyLevel
 from aeva.sim import IsaacConnector
 
 async def main():
     # 1. Initialize the Agent
     # In a real scenario, this connects to the physical robot's onboard OS
-    agent = Agent(id="AEVA-7X", endpoint="localhost:50051")
+    agent = HumanoidAgent(id="AEVA-7X", endpoint="localhost:50051")
     
     # 2. Connect to Simulation (Digital Twin)
     # This allows testing the mission in a safe virtual environment first
